@@ -41,7 +41,16 @@
 
 		<section class="filters">
 			<h2 class="catalog-filters">Фильтры</h2>
-			<!--Форма "Стоимость" -->
+
+			<!--Форма "Стоимость" ------------------->
+			<section class="price-range">
+				<h3>Стоимость</h3>
+				<form action="">
+					<input type="range" value="0,10000">
+				</form>
+			</section>
+			<!--------------------------------------->
+
 			<section class="filters-color">
 				<h3>Цвет</h3>
 				<ul class="color-types">
@@ -66,6 +75,13 @@
 
 		<section class="catalog-sorting">
 			<!-- Меню сортировки -->
+			<h2 class="catalog-sorting-header">Сортировка:</h2>
+
+			<form action="">
+				<input type="radio" name="sorting" value="price">По цене<br>
+				<input type="radio" name="sorting" value="type">По типу<br>
+				<input type="radio" name="sorting" value="popularity">По популярности
+			</form>
 		</section>
 
 		<section class="catalog">
