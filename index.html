@@ -6,6 +6,7 @@
     <title>Device: интернет-магазин гаджетов</title>
   </head>
   <body>
+
 	<header class="main-header">
 		<nav class="main-header-nav">
 			<a href="#" class="logo">
@@ -202,12 +203,37 @@
 			<p>Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
 			<p>
 				<a href="#">
-					<img src="img/main/map_w560h222.jpg" alt="Адрес магазина Device. город Санкт-Петербург улица Строителей дом 15" width="560" height="222">
+					<img src="img/main/map_w560h222.jpg" alt="Адрес магазина Device. город Москва улица Строителей дом 15" width="560" height="222">
 				</a>
 			</p>
 			<a href="#" class="button">Напишите нам</a>
 		</section>
-	
+
+		<section class="modal-map">
+			<h2 class="visually-hidden">Карта с адресом офиса магазина Device</h2>
+			<p>
+				<img src="img/main/map-big_w994h593.jpg" alt="Изображение карты с адресом офиса интернет-магазина Device. город Москва улица Строителей дом 15" width="994" height="593">
+			</p>
+			<p>
+				<button class="button">Закрыть</button>
+			</p>
+		</section>
+
+		<section class="modal-write-us">
+			<h2 class="visually-hidden">Форма для отправления сообщений</h2>
+			<form action="#">
+				<label for="">Ваше имя</label>
+				<input type="text" name="name" id="name" placeholder="Имя Фамилия">
+				
+				<label for="email">Ваш e-mail:</label>
+				<input type="email" name="email" id="email" placeholder="email@example.com">
+
+				<label for="message">Текст письма:</label>
+				<textarea name="message" id="message" cols="30" rows="10" col="50" placeholder="В свободной форме"></textarea>
+
+				<button class="submit">Отправить</button>
+			</form>
+		</section>
 	</main>
 	
 	<footer class="main-footer">
@@ -243,5 +269,6 @@
 				<img src="img/icons/logo-html.svg" alt="Логотип htmlacademy" width="27" height="35">
 			</a>
 	</footer>
-  </body>
+
+ </body>
 </html>
