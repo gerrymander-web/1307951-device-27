@@ -1,5 +1,5 @@
 # Личный проект «Девайс»
-
+# Долго ли, коротко ли
 
 * Студент: [Ольга Миронова](https://up.htmlacademy.ru/htmlcss/27/user/1307951).
 * Наставник: [Александр Григорьев](https://htmlacademy.ru/profile/fuckhtml).
